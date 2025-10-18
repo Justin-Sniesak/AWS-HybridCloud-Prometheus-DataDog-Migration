@@ -26,7 +26,7 @@
 **Summary:** 
 
 - 2025-10-17 Install aws-cli on terraform EC2 instance for enhanced administration and troubleshooting.
-  ![misc1-1](../MISC/misc1-1.jpg)
+  ![misc1-1](../MISC-AWS/misc1-1.jpg)
 
 ## Prometheus
 **Summary:** 
