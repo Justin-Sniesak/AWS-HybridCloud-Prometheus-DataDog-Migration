@@ -1,5 +1,5 @@
 ## Troubleshooting Callout
-4 distinct troubleshooting events were logged, demonstrating skills in resolving Docker image mismatches, pod crash loops, network policy, JSON errors, and Terraform configuration failures across GCP and ProxMox.
+4 distinct troubleshooting events were logged.
 
 ## DataDog
 **Summary:** 
