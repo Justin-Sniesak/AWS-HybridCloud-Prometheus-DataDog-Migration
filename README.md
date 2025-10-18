@@ -3,8 +3,15 @@
 ## IV. Repo structure
 ```
 ├── README.md
-├── Artifacts/                # Visual documentation of all tasks
-│   └── AWS/
+├── AWS/                         # Visual documentation of all tasks
+├── DataDog/                     # Datadog installation and migration from Prometheus
 ├── Docs/                        # OPERATIONS_LOG and diagrams
-└── Manifests/                   # YAML manifests for Terraform IaC
+├── EC2/                         # EC2 installation, configuration and other associated items
+├── IAM/                         # User, group, and role assignment and creation
+├── Manifests/                   # Terraform Manifests
+├── MISC-AWS/                    # Anything misc related to AWS 
+├── Prometheus/                  # Prometheus installation, configuration and dashboards go here
+├── Terraform/                   # Terraform installation and IaC resources provisioning and destruction
+├── Troubleshooting/             # All issues and associated troubleshooting 
+└── VPC/                         # VPC for connecting on-prem hyper to AWS
 ```
