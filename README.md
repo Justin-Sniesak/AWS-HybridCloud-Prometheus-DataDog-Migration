@@ -3,7 +3,6 @@
 ## IV. Repo structure
 ```
 ├── README.md
-├── AWS/                         # Visual documentation of all tasks
 ├── DataDog/                     # Datadog installation and migration from Prometheus
 ├── Docs/                        # OPERATIONS_LOG and diagrams
 ├── EC2/                         # EC2 installation, configuration and other associated items
