@@ -37,7 +37,7 @@ II. Highlights
 
 - Implemented security best practices: IAM least privilege, MFA enforcement, secure key management, service account roles.
 
-III. Architecture
+## III. Architecture
 
 ## Components:
 
