@@ -33,9 +33,9 @@
 - 2025-10-19 Install AWS-CLI on EC2 instance
   ![ec21-1](../EC2/ec21-1.jpg)
 - 2025-10-19 Create RSA key pair, add to EC2 instance, install Terraform, validate version.
-  ![ec21-2](../AWS/ec21-2.jpg)
+  ![ec21-2](../EC2/ec21-2.jpg)
 - 2025-10-19 Create access key pair, configure AWS-CLI, then validate.
-  ![ec21-3](../AWS/ec21-3.jpg)
+  ![ec21-3](../EC2/ec21-3.jpg)
 
 ## IAM
 **Summary:** 
