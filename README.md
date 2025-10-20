@@ -5,10 +5,16 @@
 This portfolio demonstrates enterprise-grade hybrid cloud infrastructure connecting AWS and on-premises environments through site-to-site VPN, Infrastructure as Code (Terraform), and complete observability migration from Prometheus to DataDog.
 Built in 13 hours to demonstrate rapid infrastructure deployment, troubleshooting capability, and documentation discipline for real-world operational challenges.
 
----
+## Core Competency Showcase
 
-I. Core Competency Showcase
-PillarKey AchievementDemonstrated ProficiencyHybrid Cloud ConnectivityEstablished site-to-site VPN between AWS and on-premises ProxMox infrastructure using WireGuard.AWS VPC, WireGuard, Network Security, Hybrid Architecture.Infrastructure as CodeProvisioned all AWS and on-premises compute resources declaratively using Terraform.Terraform, AWS (EC2, IAM, VPC), ProxMox Automation.Observability MigrationMigrated complete monitoring stack from Prometheus to DataDog with custom dashboards.Prometheus, DataDog, Node Exporter, Metrics Collection, Dashboard Creation.Security & IAMImplemented least-privilege IAM policies, MFA requirements, and secure service account management.AWS IAM, RBAC, Access Keys, Security Best Practices.
+## | PillarKey | Achievement | Demonstrated Proficiency
+   |-------|------|-------|
+| Hybrid Cloud Connectivity | Established site-to-site VPN between AWS and on-premises ProxMox infrastructure using WireGuard | AWS VPC, WireGuard, Network Security, Hybrid Architecture |
+| Infrastructure as Code | Provisioned all AWS and on-premises compute resources declaratively using Terraform | Terraform, AWS (EC2, IAM, VPC), ProxMox Automation |
+| Observability Migration | Migrated complete monitoring stack from Prometheus to DataDog with custom dashboards | Prometheus, DataDog, Node Exporter, Metrics Collection, Dashboard Creation |
+| Security & IAM  | Implemented least-privilege IAM policies, MFA requirements, and secure service account management | AWS IAM, RBAC, Access Keys, Security Best Practices |
+
+---
 
 II. Technical Deep Dive (Proof of Work)
 
@@ -25,7 +31,6 @@ Migrated observability platform from Prometheus to DataDog with 6 custom dashboa
 Provisioned infrastructure declaratively using Terraform across AWS and on-premises ProxMox hypervisor.
 Documented 10 troubleshooting events with root cause analysis, resolution steps, and validation procedures.
 Implemented security best practices: IAM least privilege, MFA enforcement, secure key management, service account roles.
-
 
 IV. Architecture
 
@@ -46,7 +51,10 @@ Observability: Prometheus, DataDog, Node Exporter
 Hypervisor: ProxMox
 OS: Ubuntu, various Linux distributions
 
+---
+
 V. Repository Structure
+```
 ├── README.md
 ├── Docs/
 │   ├── OPERATIONS_LOG.md       # Timestamped troubleshooting and procedures
@@ -62,25 +70,7 @@ V. Repository Structure
 │   ├── Terraform/              # Infrastructure provisioning
 │   ├── Troubleshooting/        # Problem resolution documentation
 │   └── VPN/                    # Site-to-site connectivity validation
-
-VI. Key Learning Outcomes
-
-Rapid Platform Adoption:
-
-Learned DataDog from zero to production dashboards in one day
-Configured first site-to-site VPN (on-prem ↔ cloud) with full validation
-
-Independent Problem-Solving:
-
-Debugged 10 distinct infrastructure issues without external assistance
-Documented root cause analysis for each issue
-
-Documentation Discipline:
-
-Real-time screenshot capture during all procedures
-Timestamped operational logs with validation steps
-Reproducible troubleshooting methodology
-
+```
 
 VII. Project Timeline
 
@@ -90,22 +80,9 @@ Troubleshooting Events: 10 documented issues resolved
 Infrastructure: AWS + on-premises hybrid cloud
 Result: Production-grade deployment with complete observability migration
 
-VIII. Reproducibility
+---
 
-All infrastructure is provisioned declaratively via Terraform. To reproduce:
+Justin Sniesak 
 
-Configure AWS credentials and Terraform backend
-Update variable files for your environment
-terraform plan to validate configuration
-terraform apply to provision infrastructure
-Configure WireGuard VPN endpoints
-Deploy DataDog agents with provided configurations
-Validate connectivity and observability
-
-Full deployment procedures documented in OPERATIONS_LOG.md.
-
-Author: Justin Sniesak
-Contact: LinkedIn | GitHub
-Portfolio: Platform Engineering Lab
-
-Built to demonstrate: Hybrid cloud architecture, rapid platform adoption, systematic troubleshooting, and documentation discipline for enterprise infrastructure operations.
+Infrastructure Engineer | Cloud | Kubernetes | CI/CD | Go
+📍 Seattle, WA
