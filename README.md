@@ -53,12 +53,17 @@ III. Architecture
 
 ## Technologies:
 
-Cloud: AWS (EC2, VPC, IAM)
-IaC: Terraform
-Networking: WireGuard VPN, site-to-site connectivity
-Observability: Prometheus, DataDog, Node Exporter
-Hypervisor: ProxMox
-OS: Ubuntu, various Linux distributions
+- Cloud: AWS (EC2, VPC, IAM)
+
+- IaC: Terraform
+
+- Networking: WireGuard VPN, site-to-site connectivity
+
+- Observability: Prometheus, DataDog, Node Exporter
+
+- Hypervisor: ProxMox
+
+- OS: Ubuntu
 
 ---
 
