@@ -1,5 +1,5 @@
 ## Troubleshooting Callout
-11 distinct troubleshooting events were logged.
+10 distinct troubleshooting events were logged.
 
 ## DataDog
 **Summary:** 
@@ -94,16 +94,6 @@ Resolution: Added missing closing brace
 
 Validation: Terraform plan completed with no errors returned
 ![ts1-1](../Troubleshooting/ts1-1.jpg)
-- 2025-10-17 
-
-Problem: Terraform plan failing due to lack of permissions
-
-Root Cause: IAM EC2 admin role was not attached to instances
-
-Resolution: Create EC2_Admin role and attach (iam1-4)
-
-Validation: Terraform plan completed with no errors returned
-![ts1-2](../Troubleshooting/ts1-2.jpg)
 - 2025-10-17 
 
 Problem: AMI annotated in compute manifest is not downloading
