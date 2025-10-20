@@ -3,7 +3,7 @@
 ## 🚀 Overview: Production-Grade Hybrid Cloud Operations
 
 This portfolio demonstrates enterprise-grade hybrid cloud infrastructure connecting AWS and on-premises environments through site-to-site VPN, Infrastructure as Code (Terraform), and complete observability migration from Prometheus to DataDog.
-Built in 13 hours to demonstrate rapid infrastructure deployment, troubleshooting capability, and documentation discipline for real-world operational challenges.
+Built in 13 hours to demonstrate rapid infrastructure deployment, troubleshooting capability, and documentation discipline.
 
 ## Core Competency Showcase
 
@@ -16,23 +16,28 @@ Built in 13 hours to demonstrate rapid infrastructure deployment, troubleshootin
 
 ---
 
-II. Technical Deep Dive (Proof of Work)
+I. Technical Deep Dive (Proof of Work)
 
 Detailed, timestamped documentation of all operational procedures, troubleshooting steps, and successful validations can be found in the accompanying OPERATIONS_LOG.md file.
-10 distinct troubleshooting events documented - demonstrating real-world problem-solving across Terraform, networking, observability platforms, and cloud infrastructure.
+10 distinct troubleshooting events documented - across Terraform, networking, observability platforms, and cloud infrastructure.
 
-III. Highlights
+II. Highlights
 
 📑 Full operational logs and troubleshooting steps are available in OPERATIONS_LOG.md
 
-Built complete hybrid cloud infrastructure in 13 hours with zero prior DataDog or site-to-site VPN experience.
-Established secure site-to-site connectivity between AWS and on-premises infrastructure using WireGuard VPN.
-Migrated observability platform from Prometheus to DataDog with 6 custom dashboards (CPU, memory, disk, network, uptime).
-Provisioned infrastructure declaratively using Terraform across AWS and on-premises ProxMox hypervisor.
-Documented 10 troubleshooting events with root cause analysis, resolution steps, and validation procedures.
-Implemented security best practices: IAM least privilege, MFA enforcement, secure key management, service account roles.
+- Built complete hybrid cloud infrastructure in 13 hours with zero prior DataDog or site-to-site VPN experience.
 
-IV. Architecture
+- Established secure site-to-site connectivity between AWS and on-premises infrastructure using WireGuard VPN.
+
+- Migrated observability platform from Prometheus to DataDog with 6 custom dashboards (CPU, memory, disk, network, uptime).
+
+- Provisioned infrastructure declaratively using Terraform across AWS and on-premises ProxMox hypervisor.
+
+- Documented 10 troubleshooting events with root cause analysis, resolution steps, and validation procedures.
+
+- Implemented security best practices: IAM least privilege, MFA enforcement, secure key management, service account roles.
+
+III. Architecture
 
 Components:
 
