@@ -39,15 +39,19 @@ II. Highlights
 
 III. Architecture
 
-Components:
+## Components:
 
-AWS: EC2 instances, VPC, IAM (users, groups, roles, service accounts)
-On-Premises: ProxMox hypervisor with multiple guests
-Connectivity: WireGuard site-to-site VPN
-Observability: DataDog (migrated from Prometheus)
-Automation: Terraform for all infrastructure provisioning
+- AWS: EC2 instances, VPC, IAM (users, groups, roles, service accounts)
 
-Technologies:
+- On-Premises: ProxMox hypervisor with multiple guests
+
+- Connectivity: WireGuard site-to-site VPN
+
+- Observability: DataDog (migrated from Prometheus)
+
+- Automation: Terraform for all infrastructure provisioning
+
+## Technologies:
 
 Cloud: AWS (EC2, VPC, IAM)
 IaC: Terraform
@@ -58,7 +62,7 @@ OS: Ubuntu, various Linux distributions
 
 ---
 
-V. Repository Structure
+IV. Repository Structure
 ```
 ├── README.md
 ├── Docs/
