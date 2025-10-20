@@ -190,7 +190,5 @@ Validation: Validated the hostname is now showing up in all created dashboards
 
 - 2025-10-19 Bring up Wireguard on on-prem guest, validate can ping peer in AWS account, and handshake completed succesfully 
   ![vpn1-1](../VPN/vpn1-1.jpg)
-- 2025-10-19 Bring up Wireguard on EC2 instance, validate can ping peer hosted on on-prem hypervisor, and handshake completed succesfully 
+- 2025-10-19 Bring up Wireguard on EC2 instance, validate can ping peer hosted on on-prem hypervisor, and handshake completed succesfully
   ![vpn1-2](../VPN/vpn1-2.jpg)
-## VPC
-**Summary:** 
