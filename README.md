@@ -10,11 +10,8 @@ Built in 13 hours to demonstrate rapid infrastructure deployment, troubleshootin
 | PillarKey | Achievement | Demonstrated Proficiency
 |-------|------|-------|
 | Hybrid Cloud Connectivity | Established site-to-site VPN between AWS and on-premises ProxMox infrastructure using WireGuard | AWS VPC, WireGuard, Network Security, Hybrid Architecture |
-
 | Infrastructure as Code | Provisioned all AWS and on-premises compute resources declaratively using Terraform | Terraform, AWS (EC2, IAM, VPC), ProxMox Automation |
-
 | Observability Migration | Migrated complete monitoring stack from Prometheus to DataDog with custom dashboards | Prometheus, DataDog, Node Exporter, Metrics Collection, Dashboard Creation |
-
 | Security & IAM  | Implemented least-privilege IAM policies, MFA requirements, and secure service account management | AWS IAM, RBAC, Access Keys, Security Best Practices |
 
 ---
