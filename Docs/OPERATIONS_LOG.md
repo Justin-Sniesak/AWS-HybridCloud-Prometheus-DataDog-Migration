@@ -2,7 +2,7 @@
 10 distinct troubleshooting events were logged.
 
 ## DataDog
-**Summary:** 
+**Summary:** Deployed DataDog agents across all on-prem infrastructure and built six production dashboards (CPU, memory, disk, network send/receive, uptime). Validated agent health and resolved hostname display issues by updating configurations.
 
 - 2025-10-19 Install DataDog agent on all on-prem guests; vaidated service was running; validated running in a good state on all guests
   ![dd1-1](../DataDog/dd1-1.jpg)
@@ -28,7 +28,7 @@
   ![dd1-11](../DataDog/dd1-11.jpg)
 
 ## EC2
-**Summary:** 
+**Summary:** Configured AWS CLI and Terraform on EC2 instances. Created SSH keypairs, installed tooling, and validated configurations for infrastructure automation.
 
 - 2025-10-19 Install AWS-CLI on EC2 instance
   ![ec21-1](../EC2/ec21-1.jpg)
@@ -38,7 +38,7 @@
   ![ec21-3](../EC2/ec21-3.jpg)
 
 ## IAM
-**Summary:** 
+**Summary:** Implemented IAM security: admin groups with policies, MFA enforcement, password requirements. Created Prometheus service account with EC2ReadOnlyAccess and established secure key management.
 
 - 2025-10-19 Create Admin group and attach AdministratorAccess policy to group.
   ![iam1-1](../IAM/iam1-1.jpg)
@@ -58,7 +58,7 @@
   ![iam1-8](../IAM/iam1-8.jpg)
 
 ## Prometheus
-**Summary:** 
+**Summary:** Deployed Prometheus with Node Exporter across AWS and on-prem. Configured scraping via site-to-site VPN, validated metrics collection, then migrated all targets to DataDog.
 
 - 2025-10-19 Install Prometheus and Node Exporter on on-prem guest; validate Prometheus version installed and node-exporter service is running
   ![prom1-1](../Prometheus/prom1-1.jpg)
@@ -72,7 +72,7 @@
   ![prom1-5](../Prometheus/prom1-5.jpg)
 
 ## Terraform
-**Summary:**
+**Summary:** Provisioned all infrastructure declaratively across AWS and on-prem ProxMox using Terraform.
 
 - 2025-10-19 Provisioned IaC resources using Terraform in AWS account.
   ![tf1-1](../Terraform/tf1-1.jpg)
@@ -82,7 +82,7 @@
   ![tf1-3](../Terraform/tf1-3.jpg)
 
 ## Troubleshooting
-**Summary:**
+**Summary:** Resolved ten infrastructure issues: Terraform syntax errors, AMI availability, VPC typos, provider misconfigurations, SSH failures, and DataDog connectivity. Each documented with root cause, resolution, and validation.
 
 - 2025-10-17 
 
@@ -186,7 +186,7 @@ Validation: Validated the hostname is now showing up in all created dashboards
 ![ts1-11](../Troubleshooting/ts1-11.jpg)
 
 ## VPN
-**Summary:**
+**Summary:** Established WireGuard site-to-site VPN between AWS and on-prem. Configured endpoints, validated bidirectional connectivity, confirmed handshakes.
 
 - 2025-10-19 Bring up Wireguard on on-prem guest, validate can ping peer in AWS account, and handshake completed succesfully 
   ![vpn1-1](../VPN/vpn1-1.jpg)
