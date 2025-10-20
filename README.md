@@ -9,7 +9,6 @@
 ├── EC2/                         # EC2 installation, configuration and other associated items
 ├── IAM/                         # User, group, and role assignment and creation
 ├── Manifests/                   # Terraform Manifests
-├── MISC-AWS/                    # Anything misc related to AWS 
 ├── Prometheus/                  # Prometheus installation, configuration and dashboards go here
 ├── Terraform/                   # Terraform installation and IaC resources provisioning and destruction
 ├── Troubleshooting/             # All issues and associated troubleshooting 
