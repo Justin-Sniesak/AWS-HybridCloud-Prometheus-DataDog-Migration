@@ -67,7 +67,7 @@ III. Architecture
 
 ---
 
-IV. Repository Structure
+## IV. Repository Structure
 ```
 ├── README.md
 ├── Docs/
@@ -86,13 +86,15 @@ IV. Repository Structure
 │   └── VPN/                    # Site-to-site connectivity validation
 ```
 
-VII. Project Timeline
+## V . Project Timeline and summary
 
-Build Time: 13 hours (single day)
-Prior Experience: Zero (DataDog, site-to-site VPN)
-Troubleshooting Events: 10 documented issues resolved
-Infrastructure: AWS + on-premises hybrid cloud
-Result: Production-grade deployment with complete observability migration
+- Build Time: 13 hours (single day)
+
+- Troubleshooting Events: 10 documented issues resolved
+
+- Infrastructure: AWS + on-premises hybrid cloud
+
+- Result: Production-grade deployment with complete observability migration
 
 ---
 
