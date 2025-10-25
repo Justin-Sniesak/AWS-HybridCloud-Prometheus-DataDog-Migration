@@ -3,7 +3,7 @@
 ## 🚀 Overview: Production-Grade Hybrid Cloud Operations
 
 This portfolio demonstrates enterprise-grade hybrid cloud infrastructure connecting AWS and on-premises environments through site-to-site VPN, Infrastructure as Code (Terraform), and complete observability migration from Prometheus to DataDog.
-Built in 13 hours to demonstrate rapid infrastructure deployment, troubleshooting capability, and documentation discipline.
+Built in 13 hours (single workday) to demonstrate extreme execution velocity, rapid troubleshooting capability, and documentation discipline.
 
 ## Core Competency Showcase
 
@@ -25,11 +25,11 @@ II. Highlights
 
 📑 Full operational logs and troubleshooting steps are available in OPERATIONS_LOG.md
 
-- Built complete hybrid cloud infrastructure in 13 hours with zero prior DataDog or site-to-site VPN experience.
+- Deployed complete Hybrid Cloud infra in 13 hours with 0 prior experience in DataDog or production WireGuard site-to-site VPN.
 
 - Established secure site-to-site connectivity between AWS and on-premises infrastructure using WireGuard VPN.
 
-- Migrated observability platform from Prometheus to DataDog with 6 custom dashboards (CPU, memory, disk, network, uptime).
+- Executed full observability platform migration from Prometheus to DataDog, establishing 6 custom production dashboards (CPU, Mem, Net, Disk, Uptime).
 
 - Provisioned infrastructure declaratively using Terraform across AWS and on-premises ProxMox hypervisor.
 
