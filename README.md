@@ -1,6 +1,7 @@
-🛰️ AWS Hybrid Cloud Infrastructure with DataDog Observability Migration
+## 🛰️ AWS Hybrid Cloud Infrastructure with DataDog Observability Migration
 
 End-to-end hybrid cloud build connecting AWS and on-prem ProxMox via WireGuard VPN, provisioned entirely with Terraform. Migrated observability from Prometheus to DataDog with six production dashboards and documented ten distinct troubleshooting events.
+
 🚀 Built in 13 hours from zero DataDog or WireGuard experience · 100% of infra declarative · Security hardened with IAM least-privilege and MFA enforcement
 
 ## Core Competency Showcase
