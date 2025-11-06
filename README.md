@@ -1,9 +1,7 @@
-## AWS Hybrid Cloud Infrastructure with DataDog Observability Migration
+🛰️ AWS Hybrid Cloud Infrastructure with DataDog Observability Migration
 
-## 🚀 Overview: Production-Grade Hybrid Cloud Operations
-
-This portfolio demonstrates enterprise-grade hybrid cloud infrastructure connecting AWS and on-premises environments through site-to-site VPN, Infrastructure as Code (Terraform), and complete observability migration from Prometheus to DataDog.
-Built in 13 hours (single workday) to demonstrate extreme execution velocity, rapid troubleshooting capability, and documentation discipline.
+End-to-end hybrid cloud build connecting AWS and on-prem ProxMox via WireGuard VPN, provisioned entirely with Terraform. Migrated observability from Prometheus to DataDog with six production dashboards and documented ten distinct troubleshooting events.
+🚀 Built in 13 hours from zero DataDog or WireGuard experience · 100% of infra declarative · Security hardened with IAM least-privilege and MFA enforcement
 
 ## Core Competency Showcase
 
