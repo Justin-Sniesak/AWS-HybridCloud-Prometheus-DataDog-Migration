@@ -69,6 +69,7 @@ II. Highlights
 ## IV. Repository Structure
 ```
 ├── README.md
+├── LICENSE.md
 ├── Docs/
 │   ├── OPERATIONS_LOG.md       # Timestamped troubleshooting and procedures
 │   └── Architecture_Diagram    # Infrastructure topology
